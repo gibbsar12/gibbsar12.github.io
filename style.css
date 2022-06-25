@@ -1,0 +1,69 @@
+/* this is a comment in CSS */
+
+/*
+https://www.educative.io/answers/class-and-id-selectors-in-css
+*/
+
+/*
+
+Selectors: class and id
+
+class .      can reuse throughout code in multiple elements
+id #         only use for particular element
+*/
+
+html{
+  background-color: bisque;
+  font-family: system-ui, -apple-system, 'Segoe UI';
+}
+
+.navbar{
+  display: grid;
+  grid-template-columns: auto auto; /*two auto for two column*/
+  border-bottom: 1px solid black;
+  position: fixed;
+  top: 0;
+  width: 97%;
+  background-color: white;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.james-photo{
+  width: 300px;
+  /*height: */
+}
+
+#greetings{
+  color: black;
+}
+
+.major-box{
+  padding: 30px;
+  /*paddin-top-bottom-left-right*/
+  border: 1px solid black;
+  /*margin: 100px;*/
+  background-color: orange;
+}
+
+.grid-0{
+  display: grid;
+  grid-template-columns: auto auto; /*two auto for two column*/
+}
+
+.box-0{
+  padding-right: 10px;
+}
+
+.intro{
+  text-align: center;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
+}
